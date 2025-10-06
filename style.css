@@ -1,0 +1,45 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ff9c00;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+ul, li{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+    list-style-type: none;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+nav{
+    align-self: flex-end;
+}
+
+main, .hero{
+    display: flex;
+}
+
+
