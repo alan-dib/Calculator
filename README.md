@@ -1,6 +1,6 @@
 # Calculator
 
-<img src = './images/calculator.jpg' width = '600'>
+<img src = './images/calculator.png' width = '600'>
 
 ## Overview
 
