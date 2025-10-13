@@ -124,7 +124,7 @@ main{
 .adjust-equal{
     display: flex;
     min-width: fit-content;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .sevenToNine, .fourToSix, .oneToThree{
@@ -135,7 +135,7 @@ main{
     background-color: #ff9c00; 
     color: white;
     font-weight: 600;
-    min-height: 100%;
+    min-height: 75%;
     min-width: 100%;
     border: 0;
     border-radius: 30px;
