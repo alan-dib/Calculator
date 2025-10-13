@@ -73,23 +73,25 @@ main{
     align-self: center;
     background-color: #fefefe;
     border-radius: 3.2em;
-    min-height: 27em;
-    min-width: 18em;
+    border: 3px solid;
+    min-width: 24vw;
+    max-height: 75vh;
 }
 
 #display{
     min-width: 50%;
-    margin: 10px;
-    padding: 40px;
+    max-height: 100%;
+    margin: 4px;
+    padding: 28px;
     background-color: rgba(89, 89, 89);
     border-radius: 1em;
     color: white;
-    font-size: 100%;
+    max-height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-around;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 #display .small{
@@ -147,7 +149,6 @@ main{
     display: flex;
     flex-direction: row-reverse;
     gap: 10px; 
-    margin-top: 1.4em; 
     min-height: max-content;
 }
 
